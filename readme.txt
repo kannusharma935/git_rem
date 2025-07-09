@@ -6,4 +6,17 @@ Working Area- in working area what ever changes you do in a file are not current
     In working area you just started making a new file.
 
 staging Area- What all files are going to be part of next version that we will create. This staging area is place where git knows what changes will be done from the last version to the next version.
-git add file name
+
+to add file to stage area->git add file name.
+to remove file from stage area-> git rm --cached filename
+
+Repository Area- This area actually contains of all the previous registered version.
+And the files in this area, git already manages them and knows their version history.
+
+In git version are managed using commit.
+
+1 git commit= 1 version
+
+commit- commit is a perticular version of the project. It captures a snapshot of the project'sstaged changes and creates a version out of it.
+
+git commit- registers staging changes to a commit.

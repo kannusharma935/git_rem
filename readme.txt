@@ -20,3 +20,13 @@ In git version are managed using commit.
 commit- commit is a perticular version of the project. It captures a snapshot of the project'sstaged changes and creates a version out of it.
 
 git commit- registers staging changes to a commit.
+
+GIT LOG- list down all the commits of the Repository. if you want to exit out of git log prompt press 'q'.
+
+git restore <filename>- it removes all files changes from the staging area to be commited. This can be useful, if we did some dirty piece of code and now no more want it. Instead of deleting every change line by line, we can restore it or you can restore last clean version of file.
+this is for working area
+
+git restore -- Staged <filename>- for staging area.
+
+
+

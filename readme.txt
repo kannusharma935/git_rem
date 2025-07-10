@@ -33,4 +33,15 @@ git restore -- Staged <filename>- for staging area. It removes file from changes
  Diff b/w git rm and git restore.
  ans- if you want to move the whole file back to the untracked state, then we do git rm , otherwise if we just want the changes to be moved in working area or staging are then we do git restore.
 
- git diff commitid_a commitid_b -this command shows the diff b/w both commits in a file 
+ git diff commitid_a commitid_b -this command shows the diff b/w both commits in a file .
+
+
+ Remote connection - It helps you to link two git repositories for uploading and downloading changes from each otherwise
+
+ git remote add <name of remote> <link of the remote> :this command helps us to add a new link to the remote repo and give a name to it.
+
+ git remote rm <name of remote> : this command deletes a remote connection
+
+ git remote rename <oldname> <newname> : this command renames the remote connection
+
+ Note: the name of the remote connection is alwas used to establish communication

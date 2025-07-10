@@ -49,4 +49,6 @@ git restore -- Staged <filename>- for staging area. It removes file from changes
  git add <file1> <file2> <file3>: this command will add multiple  file changes together is the staging area
 
  git add . : this command will add all files from working repo to staging area.
+
+git pull <remotename> <branchname>:
  

@@ -33,4 +33,4 @@ git restore -- Staged <filename>- for staging area. It removes file from changes
  Diff b/w git rm and git restore.
  ans- if you want to move the whole file back to the untracked state, then we do git rm , otherwise if we just want the changes to be moved in working area or staging are then we do git restore.
 
- 
+ git diff commitid_a commitid_b -this command shows the diff b/w both commits in a file 

@@ -26,7 +26,11 @@ GIT LOG- list down all the commits of the Repository. if you want to exit out of
 git restore <filename>- it removes all files changes from the staging area to be commited. This can be useful, if we did some dirty piece of code and now no more want it. Instead of deleting every change line by line, we can restore it or you can restore last clean version of file.
 this is for working area
 
-git restore -- Staged <filename>- for staging area.
+git restore -- Staged <filename>- for staging area. It removes file from changes from stag area to working area.
 
 
 
+ Diff b/w git rm and git restore.
+ ans- if you want to move the whole file back to the untracked state, then we do git rm , otherwise if we just want the changes to be moved in working area or staging are then we do git restore.
+
+ 
